@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockinChair", "RockinChair\RockinChair.csproj", "{F387A18D-1195-4086-B832-C15F8D65BCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockinChair.Tests", "RockinChair.Tests\RockinChair.Tests.csproj", "{F6FCF667-FB98-4BB3-8A49-7B3652A2F2EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockinChair.SampleApp", "RockinChair.SampleApp\RockinChair.SampleApp.csproj", "{D2EC097D-7205-45F6-A2F8-667B331C13A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F387A18D-1195-4086-B832-C15F8D65BCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F387A18D-1195-4086-B832-C15F8D65BCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F387A18D-1195-4086-B832-C15F8D65BCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F387A18D-1195-4086-B832-C15F8D65BCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FCF667-FB98-4BB3-8A49-7B3652A2F2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FCF667-FB98-4BB3-8A49-7B3652A2F2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FCF667-FB98-4BB3-8A49-7B3652A2F2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FCF667-FB98-4BB3-8A49-7B3652A2F2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EC097D-7205-45F6-A2F8-667B331C13A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EC097D-7205-45F6-A2F8-667B331C13A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EC097D-7205-45F6-A2F8-667B331C13A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EC097D-7205-45F6-A2F8-667B331C13A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
