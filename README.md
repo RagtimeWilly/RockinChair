@@ -1,4 +1,4 @@
-# SpotifyPlaylister
+# Rockin' Chair
 
 Spotify API Client written in C# .Net.
 
