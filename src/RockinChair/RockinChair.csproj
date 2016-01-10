@@ -57,6 +57,7 @@
     <Compile Include="Data\Track.cs" />
     <Compile Include="Data\TrackLink.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpotifyConfig.cs" />
     <Compile Include="Utils\StringEx.cs" />
   </ItemGroup>
   <ItemGroup>

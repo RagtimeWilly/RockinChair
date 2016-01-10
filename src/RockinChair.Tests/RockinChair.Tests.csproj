@@ -44,8 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SpotifyAuthorizerTests.cs" />
-    <Compile Include="SpotifyAuthorizedClientTests.cs" />
     <Compile Include="SpotifyClientTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
