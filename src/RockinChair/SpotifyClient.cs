@@ -11,18 +11,18 @@ namespace RockinChair
     {
         protected const string BaseUrl = "https://api.spotify.com/v1";
 
-        protected readonly Func<HttpClient> _clientFactory;
+        protected readonly Func<HttpClient> ClientFactory;
 
         public SpotifyClient(Func<HttpClient> clientFactory)
         {
-            _clientFactory = clientFactory;
+            ClientFactory = clientFactory;
         }
 
         public async Task<IEnumerable<Track>> SearchTracks(string artist, string trackName)
         {
             var uri = new Uri($"{BaseUrl}/search?q=track:{trackName}%20artist:{artist}&type=track");
            
-            using (var httpClient = _clientFactory())
+            using (var httpClient = ClientFactory())
             {
                 var json = await httpClient.GetStringAsync(uri);
 

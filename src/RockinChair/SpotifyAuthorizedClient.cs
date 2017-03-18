@@ -24,7 +24,7 @@ namespace RockinChair
         {
             var url = $"https://api.spotify.com/v1/users/{username}/playlists";
 
-            using (var httpClient = _clientFactory())
+            using (var httpClient = ClientFactory())
             {
                 var header = new AuthenticationHeaderValue("Bearer", _token);
 
@@ -42,7 +42,7 @@ namespace RockinChair
         {
             var url = $"https://api.spotify.com/v1/users/{username}/playlists/{playlist}/tracks?uris={track}";
 
-            using (var httpClient = _clientFactory())
+            using (var httpClient = ClientFactory())
             {
                 var header = new AuthenticationHeaderValue("Bearer", _token);
 
