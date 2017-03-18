@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>RockinChair</id>
+        <version>$version$</version>
+        <title>RockinChair</title>
+        <authors>Sean Comiskey</authors>
+        <owners>Sean Comiskey</owners>
+		<licenseUrl>https://github.com/RagtimeWilly/RockinChair/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/RagtimeWilly/RockinChair/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>.NET Spotify API Client</description>
+        <copyright>Copyright © Sean Comiskey 2016</copyright>
+		<tags>spotify</tags>
+        <dependencies>
+			<dependency id="Newtonsoft.Json" version="9.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\RockinChair.dll" target="lib\net452\RockinChair.dll" />
+    </files>
+</package>
