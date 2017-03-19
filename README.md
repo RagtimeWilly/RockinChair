@@ -1,5 +1,3 @@
-# Rockin' Chair
-
 ![Build Status](https://ci.appveyor.com/api/projects/status/github/RagtimeWilly/RockinChair?branch=master&svg=true) [![NuGet](https://img.shields.io/nuget/v/RockinChair.svg)](https://www.nuget.org/packages/RockinChair/)
 
 .NET Spotify API client to allow automated curation of playlists. 
