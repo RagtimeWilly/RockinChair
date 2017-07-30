@@ -102,27 +102,19 @@ while (true)
     Console.WriteLine("AuthToken refreshed!");
 }
 ```
-
-## Spotify Client
-
-The basic (unauthorized) client just allows you to search for [`Tracks`](https://github.com/RagtimeWilly/RockinChair/blob/master/src/RockinChair/Data/Track.cs) using the artist and track name:
-```
-var spotify = new SpotifyClient(() => new HttpClient());
-
-var tracks = spotify
-              .SearchTracks("The Band", "The Weight")
-              .Result;
-```
-
 ## Spotify Authorized Client
 
 The authorized client allows you to access playlist ids and add tracks to them:
 ```
 var spotify = new SpotifyAuthorizedClient(() => new HttpClient(), "authToken");
 
+var tracks = spotify
+    .SearchTracks("The Band", "The Weight")
+    .Result;
+              
 var playlists = spotify
-                  .GetPlaylists("someUsername")
-                  .Result;
+    .GetPlaylists("someUsername")
+    .Result;
 
 await spotify.AddTrackToPlaylist("someUsername", "playlistId", "trackId");
 ```
