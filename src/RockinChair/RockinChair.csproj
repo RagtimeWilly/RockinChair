@@ -51,7 +51,6 @@
     <Compile Include="Definitions\Scopes.cs" />
     <Compile Include="SpotifyAuthorizer.cs" />
     <Compile Include="SpotifyAuthorizedClient.cs" />
-    <Compile Include="SpotifyClient.cs" />
     <Compile Include="Data\AlbumSimple.cs" />
     <Compile Include="Data\ArtistSimple.cs" />
     <Compile Include="Data\Image.cs" />
